@@ -29,3 +29,5 @@ Route::get('/client-intake-form', function () {
     return view('client-intake-form');
 })->name('client-intake-form')
 ;
+Route::post('submit',[App\Http\Controllers\client::class,'save']);
+
