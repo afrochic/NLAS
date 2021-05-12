@@ -10,7 +10,7 @@ class client extends Controller
     //
 
     function save(Request $req){
-        print_r($req->input());
+        //print_r($req->input());
         $client= new ModelsClients();
         $client->pilot=$req->pilot;
         $client->nairobi=$req->nairobi;
@@ -57,6 +57,7 @@ class client extends Controller
         $client->officer=$req->officer;
         $client->date_today=$req->date_today;
         $client->save();
+        return redirect('submit');
     }
    
 

@@ -3,8 +3,13 @@
 @section('content')
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="container" style="color:red; background-color: #ffb3b3;">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    div{
+    font-family: Raleway;
+    }
+</style>
+<div class="container" style="color:red; background-color: #FDF5E6">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">

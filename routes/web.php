@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('auth/login');
-});
+    return view('auth/login');   
+                       });
 
 Auth::routes();
 
@@ -29,5 +29,5 @@ Route::get('/client-intake-form', function () {
     return view('client-intake-form');
 })->name('client-intake-form')
 ;
-Route::post('submit',[App\Http\Controllers\client::class,'save']);
-
+Route::post('/submit',[App\Http\Controllers\client::class,'save']);
+Route::view('/submit','home');

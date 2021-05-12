@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" style="color:red; background-color: #ffb3b3;">
+<div class="container" style="color:#ffb3b3; background-color:#FDF5E6;">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -44,7 +44,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
-                                    <label class="form-check-label" for="remember" style='color:red;'>
+                                    <label class="form-check-label" for="remember" style='color:#FFB6C1'>
                                         {{ __('Remember Me') }}
                                     </label>
                                 </div>
@@ -58,7 +58,7 @@
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}" style='color:red;'>
+                                    <a class="btn btn-link" href="{{ route('password.request') }}" style='color:#FFB6C1;'>
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
