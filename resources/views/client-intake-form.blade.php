@@ -5,8 +5,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-    div{
-    font-family: Raleway;
+    div {
+        font-family: Raleway;
     }
 </style>
 <div class="container" style="color:red; background-color: #FDF5E6">
@@ -300,6 +300,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <label for="criminal">others()specify</label>
+                                    <textarea id="criminal" name="criminal" cols="40" rows="5" class="form-control"></textarea>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label style="margin-left: 25px;">sexual violence :</label>
@@ -325,8 +329,8 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="criminal">others()specify</label>
-                                <textarea id="criminal" name="criminal" cols="40" rows="5" class="form-control"></textarea>
+                                <label for="sexual violence">others()specify</label>
+                                <textarea id="sexual violence" name="sexual violence" cols="40" rows="5" class="form-control"></textarea>
                             </div>
                             <div class="form-group">
                                 <label style="margin-left: 25px;">civil :</label>
@@ -618,7 +622,7 @@
                                 </div>
                                 <div class="form-group" style="margin-top:15px;">
                                     <label for="date of case filed">a) Date of case filed:</label>
-                                    <input id="date of case filed" name="date of case filed" type="text" class="form-control">
+                                    <input id="date of case filed" name="date of case filed" type="date" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="court">which court:</label>
